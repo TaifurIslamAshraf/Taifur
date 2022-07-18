@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--------------- Link Css ------------>
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <!--------------- Google Font ------------>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--------------- Font awesome Icon Cdn 6.1.1------------>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>ECommerce Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--------------- header Start------------>
+      <header>
+        <div class="heading">
+          <div class="logo">
+            <img src="./image/Logo.png" alt="Logo Image" />
+          </div>
+          <div class="menu">
+            <div class="navbar">
+              <a href="#">Home</a>
+              <a href="#">Category</a>
+              <a href="#">Shop</a>
+              <a href="#">Blog</a>
+              <a href="#">Page</a>
+            </div>
+          </div>
+          <div class="heading-2">
+            <div class="search">
+              <input
+                type="search"
+                name="Product"
+                id="search-input"
+                placeholder="Search..."
+              />
+              <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <div class="profile-icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="shopping-icon">
+              <i class="fa-solid fa-cart-plus"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--------------- header End------------>
+
+      <!--------------- main Start------------>
+      <main>
+        <!--------------- Slider Start ------------>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="text">
+              <h1>
+                All You Need For <br />
+                Perfect Breakfast
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing <br />
+                elit. Odio, vero! Lorem ipsum dolor sit amet.
+              </p>
+              <button class="buy-btn">buy now</button>
+              <button class="see-more-btn">see more</button>
+            </div>
+            <div class="slide-img">
+              <img src="/image/slider-img-1.png" />
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="text">
+              <h1>
+                Easy Ways To Include Fresh <br />
+                Fruits In Your Daily Diet
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing <br />
+                elit. Odio, vero! Lorem ipsum dolor sit amet.
+              </p>
+              <button class="buy-btn">buy now</button>
+              <button class="see-more-btn">see more</button>
+            </div>
+            <div class="slide-img">
+              <img src="/image/slider-img-4.png" />
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="text">
+              <h1>
+                Fresh And Organic <br />
+                Vegetable For You
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing <br />
+                elit. Odio, vero! Lorem ipsum dolor sit amet.
+              </p>
+              <button class="buy-btn">buy now</button>
+              <button class="see-more-btn">see more</button>
+            </div>
+            <div class="slide-img">
+              <img src="/image/slider-img-3.png" />
+            </div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+        <!--------------- Slider End ------------>
+
+        <!--------------- meta start ------------>
+        <div class="meta-container">
+          <div class="meta">
+            <a href="#">
+              <img src="/image/fruits.png" alt="" />
+            </a>
+            <p>Fruits</p>
+          </div>
+          <div class="meta">
+            <a href="#">
+              <img src="/image/vegetable.png" alt="" />
+            </a>
+            <p>Vegetable</p>
+          </div>
+          <div class="meta">
+            <a href="#">
+              <img src="/image/fish.png" alt="" />
+            </a>
+            <p>Fish</p>
+          </div>
+          <div class="meta">
+            <a href="#">
+              <img src="/image/bakery.png" alt="" />
+            </a>
+            <p>Bakery</p>
+          </div>
+          <div class="meta">
+            <a href="#">
+              <img src="/image/beef.png" alt="" />
+            </a>
+            <p>Meat</p>
+          </div>
+          <div class="meta">
+            <a href="#">
+              <img src="/image/pasta.png" alt="" />
+            </a>
+            <p>Pasta</p>
+          </div>
+          <div class="meta">
+            <a href="#">
+              <img src="/image/sweets.png" alt="" />
+            </a>
+            <p>Sweets</p>
+          </div>
+        </div>
+        <!--------------- meta End ------------>
+
+        <!--------------- banner Procuct start ------------>
+        <div class="banner-container">
+          <div class="banner-heading">
+            <div class="banner-header">
+              <h3><span>New</span> Product</h3>
+            </div>
+            <div class="banner-arrwo-btn">
+              <button class="banner-prev-btn">&#10094;</button>
+              <button class="banner-next-btn">&#10095;</button>
+            </div>
+          </div>
+          <div class="banners">
+            <div class="banner">
+              <img src="/image/banner-img-1.png" alt="" />
+              <div class="hover-icon">
+                <button class="plus-banner-icon">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="rotate-banner-icon">
+                  <i class="fa-solid fa-rotate"></i>
+                </button>
+                <button class="heart-banner-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <button class="search-banner-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <h4>Fresh Vegetable</h4>
+              <div class="product-price">
+                <p><span>$40.00</span>$30.00 (1KG)</p>
+              </div>
+              <button class="order-btn">Order Now</button>
+            </div>
+            <div class="banner">
+              <img src="/image/banner-img-2.png" alt="" />
+              <div class="hover-icon">
+                <button class="plus-banner-icon">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="rotate-banner-icon">
+                  <i class="fa-solid fa-rotate"></i>
+                </button>
+                <button class="heart-banner-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <button class="search-banner-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <h4>Fresh Vegetable</h4>
+              <div class="product-price">
+                <p><span>$40.00</span>$30.00 (1KG)</p>
+              </div>
+              <button class="order-btn">Order Now</button>
+            </div>
+            <div class="banner">
+              <img src="/image/banner-img-3.png" alt="" />
+              <div class="hover-icon">
+                <button class="plus-banner-icon">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="rotate-banner-icon">
+                  <i class="fa-solid fa-rotate"></i>
+                </button>
+                <button class="heart-banner-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <button class="search-banner-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <h4>Fresh Vegetable</h4>
+              <div class="product-price">
+                <p><span>$40.00</span>$30.00 (1KG)</p>
+              </div>
+              <button class="order-btn">Order Now</button>
+            </div>
+            <div class="banner">
+              <img src="/image/banner-img-4.png" alt="" />
+              <div class="hover-icon">
+                <button class="plus-banner-icon">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="rotate-banner-icon">
+                  <i class="fa-solid fa-rotate"></i>
+                </button>
+                <button class="heart-banner-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <button class="search-banner-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <h4>Fresh Vegetable</h4>
+              <div class="product-price">
+                <p><span>$40.00</span>$30.00 (1KG)</p>
+              </div>
+              <button class="order-btn">Order Now</button>
+            </div>
+            <div class="banner">
+              <img src="/image/banner-img-5.png" alt="" />
+              <div class="hover-icon">
+                <button class="plus-banner-icon">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="rotate-banner-icon">
+                  <i class="fa-solid fa-rotate"></i>
+                </button>
+                <button class="heart-banner-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <button class="search-banner-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <h4>Fresh Vegetable</h4>
+              <div class="product-price">
+                <p><span>$40.00</span>$30.00 (1KG)</p>
+              </div>
+              <button class="order-btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+        <!--------------- banner Procuct end ------------>
+
+        <!--------------- Spiceal Service start ------------>
+        <div class="service-container">
+          <div class="service-img">
+            <img
+              class="top-img"
+              src="/image/spiceal-service-img/Free Delivery.png"
+              alt=""
+            />
+            <img
+              class="left-img"
+              src="/image/spiceal-service-img/1.png"
+              alt=""
+            />
+            <img
+              class="right-img"
+              src="/image/spiceal-service-img/2.png"
+              alt=""
+            />
+            <img
+              class="bottom-img"
+              src="/image/spiceal-service-img/3.png"
+              alt=""
+            />
+          </div>
+          <div class="service-text">
+            <h1>
+              Our Spiceal Service <br />
+              Fresh Beef
+            </h1>
+            <p><span>$20.00</span> $18.00</p>
+            <button class="service-btn">shop now</button>
+          </div>
+        </div>
+        <!--------------- Spiceal Service end ------------>
+
+        <!---------- best selling product start ---------->
+        <div class="best-selling-container">
+          <div class="best-selling-heading">
+            <div class="best-selling-header">
+              <h3>Best <span>Selling</span> Product</h3>
+            </div>
+            <div class="selling-nav">
+              <ul>
+                <li><a href="#">Fruits</a></li>
+                <li><a href="#">Vegetable</a></li>
+                <li><a href="#">Meat</a></li>
+                <li><a href="#">Milk</a></li>
+                <li><a href="#">Cakes</a></li>
+                <li><a href="#">Dirnks</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="best-sell-cards">
+            <div class="best-sell-card">
+              <div class="best-sell-img">
+                <img src="/image/banner-img-1.png" alt="" />
+              </div>
+              <div class="best-sell-icon">
+                <button class="plus-banner-icon">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="rotate-banner-icon">
+                  <i class="fa-solid fa-rotate"></i>
+                </button>
+                <button class="heart-banner-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <button class="search-banner-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <div class="best-sell-card-text">
+                <p>Fresh Vegetable</p>
+              </div>
+              <div class="card-price">
+                <p><span>$40.00 </span> $30.00 (1kg)</p>
+              </div>
+            </div>
+            <div class="best-sell-card">
+              <div class="best-sell-img">
+                <img src="/image/banner-img-2.png" alt="" />
+              </div>
+              <div class="best-sell-icon">
+                <button class="plus-banner-icon">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="rotate-banner-icon">
+                  <i class="fa-solid fa-rotate"></i>
+                </button>
+                <button class="heart-banner-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <button class="search-banner-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <div class="best-sell-card-text">
+                <p>Fresh Vegetable</p>
+              </div>
+              <div class="card-price">
+                <p><span>$40.00 </span> $30.00 (1kg)</p>
+              </div>
+            </div>
+            <div class="best-sell-card">
+              <div class="best-sell-img">
+                <img src="/image/banner-img-3.png" alt="" />
+              </div>
+              <div class="best-sell-icon">
+                <button class="plus-banner-icon">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="rotate-banner-icon">
+                  <i class="fa-solid fa-rotate"></i>
+                </button>
+                <button class="heart-banner-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <button class="search-banner-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <div class="best-sell-card-text">
+                <p>Fresh Vegetable</p>
+              </div>
+              <div class="card-price">
+                <p><span>$40.00 </span> $30.00 (1kg)</p>
+              </div>
+            </div>
+            <div class="best-sell-card">
+              <div class="best-sell-img">
+                <img src="/image/banner-img-4.png" alt="" />
+              </div>
+              <div class="best-sell-icon">
+                <button class="plus-banner-icon">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="rotate-banner-icon">
+                  <i class="fa-solid fa-rotate"></i>
+                </button>
+                <button class="heart-banner-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <button class="search-banner-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <div class="best-sell-card-text">
+                <p>Fresh Vegetable</p>
+              </div>
+              <div class="card-price">
+                <p><span>$40.00 </span> $30.00 (1kg)</p>
+              </div>
+            </div>
+            <div class="best-sell-card">
+              <div class="best-sell-img">
+                <img src="/image/banner-img-5.png" alt="" />
+              </div>
+              <div class="best-sell-icon">
+                <button class="plus-banner-icon">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                <button class="rotate-banner-icon">
+                  <i class="fa-solid fa-rotate"></i>
+                </button>
+                <button class="heart-banner-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+                <button class="search-banner-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <div class="best-sell-card-text">
+                <p>Fresh Vegetable</p>
+              </div>
+              <div class="card-price">
+                <p><span>$40.00 </span> $30.00 (1kg)</p>
+              </div>
+            </div>
+          </div>
+          <div class="best-sell-arrow">
+            <button class="best-sell-prev">&#10094;</button>
+            <button class="best-sell-next">&#10095;</button>
+          </div>
+        </div>
+        <!---------- best selling product end ---------->
+
+        <!---------- fresh product banner start ---------->
+        <div class="fresh-product-container">
+          <div class="fresh-pro-contant">
+            <div class="fresh-product-img">
+              <img src="./image/fresh-product.png" alt="" />
+            </div>
+            <div class="fresh-product-text">
+              <h1>
+                Fresh Product Directly <br />
+                To Your Door With Free <br />
+                Delivery
+              </h1>
+              <p>
+                There are many variations of passage Lorem Ipsum available, but
+                te majority hav suffered alteration in some form, by injected
+                humour
+              </p>
+              <div class="fresh-pro-icon">
+                <div class="fresh-icon-1">
+                  <p>
+                    <span
+                      ><i class="icon-color fa-regular fa-square-check"></i
+                    ></span>
+                    Free Delivery For All Order
+                  </p>
+                </div>
+                <div class="fresh-icon-2">
+                  <p>
+                    <span
+                      ><i class="icon-color fa-regular fa-square-check"></i
+                    ></span>
+                    Free Delivery For All Order
+                  </p>
+                </div>
+              </div>
+              <button class="fresh-btn">Find Now</button>
+            </div>
+          </div>
+        </div>
+        <!---------- fresh product banner end ---------->
+
+        <!---------- Top Rated part start ---------->
+        <div class="top-rat-container">
+          <div class="top-rat-header">
+            <div class="top-rat-heading">
+              <h3>Top <span>Rated</span> Product</h3>
+            </div>
+            <div class="top-rat-menu">
+              <ul>
+                <li><a href="#">Fruits</a></li>
+                <li><a href="#">Vegetable</a></li>
+                <li><a href="#">Meat</a></li>
+                <li><a href="#">Milk</a></li>
+                <li><a href="#">Cakes</a></li>
+                <li><a href="#">Dirnks</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="top-rat-main">
+            <div class="top-rat-banner">
+              <div class="top-rat-banner-img">
+                <img src="./image/top rat banner.png" alt="" />
+              </div>
+              <div class="count-down-time">
+                <div class="container-day">
+                  <h4 class="day">Time</h4>
+                  <h4>Day</h4>
+                </div>
+                <div class="container-hour">
+                  <h4 class="hour">Time</h4>
+                  <h4>Hour</h4>
+                </div>
+                <div class="container-minute">
+                  <h4 class="minute">Time</h4>
+                  <h4>Min</h4>
+                </div>
+                <div class="container-second">
+                  <h4 class="second">Time</h4>
+                  <h4>Sec</h4>
+                </div>
+              </div>
+              <div class="top-rat-banner-text">
+                <h3>Fresh Black Coffee</h3>
+                <p>
+                  Lorem ipsum dolor sit amet <br />
+                  consectetur adipisicing elit.
+                </p>
+                <h5><span>$25.00 </span> $20.00</h5>
+              </div>
+              <div class="top-rat-banner-btn">
+                <button class="add-to-bag-btn">
+                  <span class="bag-icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </span>
+                  <span class="btn-text">Add To Bag</span>
+                </button>
+                <button class="plus-btn">
+                  <i class="fa-regular fa-plus"></i>
+                </button>
+              </div>
+            </div>
+            <!-- top rated product -->
+            <div class="top-rat-products">
+              <div class="top-rated-product">
+                <div class="top-rated-card">
+                  <div class="card-img">
+                    <img src="./image/best.png" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h5>Mulberry</h5>
+                    <p><span>$25.00 </span> $20.00</p>
+                    <button>Buy Now</button>
+                    <div class="star-icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span>(20)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-rated-card">
+                  <div class="card-img">
+                    <img src="./image/best1.png" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h5>Coconut Milk</h5>
+                    <p><span>$25.00 </span> $20.00</p>
+                    <button>Buy Now</button>
+                    <div class="star-icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span>(20)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-rated-card">
+                  <div class="card-img">
+                    <img src="./image/best2.png" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h5>Cream Cake</h5>
+                    <p><span>$25.00 </span> $20.00</p>
+                    <button>Buy Now</button>
+                    <div class="star-icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span>(20)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-rated-card">
+                  <div class="card-img">
+                    <img src="./image/best3.png" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h5>Crown Daisy</h5>
+                    <p><span>$25.00 </span> $20.00</p>
+                    <button>Buy Now</button>
+                    <div class="star-icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span>(20)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="top-rated-product">
+                <div class="top-rated-card">
+                  <div class="card-img">
+                    <img src="./image/best4.png" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h5>Delicious Milk</h5>
+                    <p><span>$25.00 </span> $20.00</p>
+                    <button>Buy Now</button>
+                    <div class="star-icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span>(20)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-rated-card">
+                  <div class="card-img">
+                    <img src="./image/best5.png" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h5>Fresh Apple</h5>
+                    <p><span>$25.00 </span> $20.00</p>
+                    <button>Buy Now</button>
+                    <div class="star-icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span>(20)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-rated-card">
+                  <div class="card-img">
+                    <img src="./image/best6.png" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h5>Chicken Meat</h5>
+                    <p><span>$25.00 </span> $20.00</p>
+                    <button>Buy Now</button>
+                    <div class="star-icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span>(20)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-rated-card">
+                  <div class="card-img">
+                    <img src="./image/best7.png" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h5>Fresh Fish</h5>
+                    <p><span>$25.00 </span> $20.00</p>
+                    <button>Buy Now</button>
+                    <div class="star-icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span>(20)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="top-rated-product">
+                <div class="top-rated-card">
+                  <div class="card-img">
+                    <img src="./image/best8.png" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h5>Mix Ready Juc</h5>
+                    <p><span>$25.00 </span> $20.00</p>
+                    <button>Buy Now</button>
+                    <div class="star-icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span>(20)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-rated-card">
+                  <div class="card-img">
+                    <img src="./image/best9.png" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h5>Kiwifruit Food</h5>
+                    <p><span>$25.00 </span> $20.00</p>
+                    <button>Buy Now</button>
+                    <div class="star-icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span>(20)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-rated-card">
+                  <div class="card-img">
+                    <img src="./image/best10.png" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h5>Low Fat Peanut Oil</h5>
+                    <p><span>$25.00 </span> $20.00</p>
+                    <button>Buy Now</button>
+                    <div class="star-icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span>(20)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="top-rated-card">
+                  <div class="card-img">
+                    <img src="./image/best11.png" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h5>Prime Beef</h5>
+                    <p><span>$25.00 </span> $20.00</p>
+                    <button>Buy Now</button>
+                    <div class="star-icon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span>(20)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------- Top Rated part end ---------->
+
+        <!---------- App section start ---------->
+        <div class="app-container">
+          <div class="app-text">
+            <h1>Make your online shop sob ready with our mobile app</h1>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour
+            </p>
+            <div class="app-link">
+              <a href="#"><img src="./image/googleplay.png" alt="" /></a>
+              <a href="#"><img src="./image/appstore.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="app-img">
+            <img src="./image/app scrren.png" alt="" />
+          </div>
+        </div>
+        <!---------- App section end ---------->
+
+        <!--------------- footer Start------------>
+
+        <div class="footer-container">
+          <div class="main-footer">
+            <!-- footer info -->
+            <div class="footer-info">
+              <div class="footer-logo">
+                <img src="./image/Logo.png" alt="" />
+              </div>
+              <p>
+                Sophisticated simplicity for <br />
+                the independent mind
+              </p>
+              <div class="social-icon">
+                <ul>
+                  <li>
+                    <a style="color: blue" href="#"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- help & information -->
+            <div class="footer-about">
+              <h5>About Us</h5>
+              <ul>
+                <li>
+                  <a href="#">Home Page</a>
+                </li>
+                <li>
+                  <a href="#">Terms & Condition</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <a href="#">Pagination</a>
+                </li>
+                <li>
+                  <a href="#">Term of use</a>
+                </li>
+              </ul>
+            </div>
+            <!-- about us -->
+            <div class="footer-help">
+              <h5>Help & Information</h5>
+              <ul>
+                <li>
+                  <a href="#">Help Center</a>
+                </li>
+                <li>
+                  <a href="#">Address Store</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#">Receivers & Amplifiers</a>
+                </li>
+                <li>
+                  <a href="#">Clothings</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-Categories">
+              <h5>Categories</h5>
+              <ul>
+                <li>
+                  <a href="#">Del Delivery</a>
+                </li>
+                <li>
+                  <a href="#">Documentation</a>
+                </li>
+                <li>
+                  <a href="#">Secure Payment</a>
+                </li>
+                <li>
+                  <a href="#">Stores</a>
+                </li>
+                <li>
+                  <a href="#">Clothings</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="sub-footer">
+            <div class="copyright">
+              <small
+                ><span>&copy; Copyright 2022</span> Create By Taifur
+                islam.</small
+              >
+            </div>
+            <div class="footer-payment">
+              <i class="fa-brands fa-apple-pay"></i>
+              <i class="fa-brands fa-google-pay"></i>
+              <i class="fa-brands fa-paypal"></i>
+              <i class="fa-brands fa-cc-mastercard"></i>
+              <i class="fa-brands fa-cc-visa"></i>
+              <i class="fa-brands fa-amazon"></i>
+            </div>
+          </div>
+        </div>
+        <!--------------- footer end ------------>
+      </main>
+      <!--------------- main end------------>
+    </div>
+
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
